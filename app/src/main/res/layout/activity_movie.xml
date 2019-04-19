@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttonshow"
+    tools:context="com.bw.movie.mvp.view.MovieActivity">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_186"
+            android:src="@mipmap/ah2"
+            android:contentDescription="TODO" android:scaleType="centerCrop"
+            />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:id="@+id/movie_item_one_image"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10" android:orientation="vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CGV影院"
+                    android:textSize="@dimen/sp_16"
+                    android:maxLength="4"
+                    android:textColor="#ffffff"
+                    android:id="@+id/movie_item_one_title"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CGV影院"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:textSize="@dimen/sp_14"
+                    android:maxLines="2"
+                    android:id="@+id/movie_item_one_name"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+            <ImageView
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:contentDescription="TODO" android:src="@mipmap/com_icon_navigation_default_xxhdpi"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/dp_30"
+                />
+    </android.support.constraint.ConstraintLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <recycler.coverflow.RecyclerCoverFlow
+                    android:id="@+id/main_CoverFlow1"
+                    android:layout_width="@dimen/dp_312"
+                    android:layout_height="@dimen/dp_190"
+                    android:layout_marginLeft="@dimen/dp_24"
+                    android:layout_marginStart="@dimen/dp_24" android:layout_marginTop="@dimen/dp_95" />
+            </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_3"
+            android:background="@drawable/buttonqian"
+            android:layout_marginTop="@dimen/dp_295"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/move_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="@dimen/dp_24"
+                android:layout_marginRight="@dimen/dp_24"
+                android:layout_marginTop="@dimen/dp_310"
+                >
+
+
+            </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout >

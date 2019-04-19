@@ -1,0 +1,119 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="155" />
+      <entry action="$Cut" count="11" />
+      <entry action="$Delete" count="197" />
+      <entry action="$Paste" count="541" />
+      <entry action="$SelectAll" count="19" />
+      <entry action="$Undo" count="8897" />
+      <entry action="ActivateProjectToolWindow" count="1" />
+      <entry action="Android Profiler" count="1" />
+      <entry action="Android.BuildApk" count="1" />
+      <entry action="Android.CreateResourceDirectory" count="1" />
+      <entry action="Android.CreateSampleDataDirectory" count="2" />
+      <entry action="Android.GenerateSignedApk" count="4" />
+      <entry action="Android.LinkExternalCppProject" count="4" />
+      <entry action="Android.SyncProject" count="175" />
+      <entry action="ClassNameCompletion" count="5" />
+      <entry action="CloseAllEditors" count="202" />
+      <entry action="CloseAllEditorsButActive" count="1" />
+      <entry action="CloseAllUnpinnedEditors" count="3" />
+      <entry action="CloseProject" count="1" />
+      <entry action="CollapseBlock" count="1" />
+      <entry action="CollapseSelection" count="1" />
+      <entry action="CommentByBlockComment" count="162" />
+      <entry action="CommentByLineComment" count="8" />
+      <entry action="ConsoleView.ClearAll" count="1" />
+      <entry action="ContextHelp" count="3" />
+      <entry action="CreateLibraryFromFile" count="2" />
+      <entry action="CreateResourceBundle" count="3" />
+      <entry action="Debug" count="81" />
+      <entry action="Debugger.ShowLibraryFrames" count="5" />
+      <entry action="DialogOkAction Delete" count="1" />
+      <entry action="DialogOkAction Enter" count="817" />
+      <entry action="EditorBackSpace" count="36794" />
+      <entry action="EditorChooseLookupItem" count="17955" />
+      <entry action="EditorChooseLookupItemReplace" count="8" />
+      <entry action="EditorCopy" count="2034" />
+      <entry action="EditorCut" count="876" />
+      <entry action="EditorDelete" count="111" />
+      <entry action="EditorDeleteToWordEnd" count="1" />
+      <entry action="EditorDeleteToWordStart" count="15" />
+      <entry action="EditorDown" count="11912" />
+      <entry action="EditorDownWithSelection" count="1" />
+      <entry action="EditorDuplicate" count="12" />
+      <entry action="EditorEnter" count="7718" />
+      <entry action="EditorEscape" count="4" />
+      <entry action="EditorIndentSelection" count="55" />
+      <entry action="EditorLeft" count="15022" />
+      <entry action="EditorLeftWithSelection" count="1" />
+      <entry action="EditorPaste" count="3262" />
+      <entry action="EditorPreviousWord" count="2" />
+      <entry action="EditorRight" count="5953" />
+      <entry action="EditorSelectWord" count="3" />
+      <entry action="EditorSplitLine" count="15" />
+      <entry action="EditorStartNewLine" count="26" />
+      <entry action="EditorStartNewLineBefore" count="7" />
+      <entry action="EditorTab" count="2293" />
+      <entry action="EditorToggleInsertState" count="38" />
+      <entry action="EditorUp" count="2315" />
+      <entry action="ExtractMethod" count="2" />
+      <entry action="Find" count="8" />
+      <entry action="FindNext" count="1" />
+      <entry action="Generate" count="387" />
+      <entry action="GoogleLogin.LoginService" count="1" />
+      <entry action="GotoBookmark1" count="1" />
+      <entry action="GotoDeclaration" count="213" />
+      <entry action="GotoNextError" count="2" />
+      <entry action="GotoTypeDeclaration" count="1" />
+      <entry action="HideAllWindows" count="7" />
+      <entry action="HippieCompletion" count="1" />
+      <entry action="Images.ShowThumbnails" count="1" />
+      <entry action="ImportApkAction" count="2" />
+      <entry action="IntroduceField" count="259" />
+      <entry action="IntroduceParameter" count="1" />
+      <entry action="IntroduceVariable" count="13" />
+      <entry action="Kotlin.NewFile" count="12" />
+      <entry action="MakeGradleProject" count="12" />
+      <entry action="Move" count="1" />
+      <entry action="MoveLineDown" count="1" />
+      <entry action="NewAndroidImageAsset" count="1" />
+      <entry action="NewClass" count="337" />
+      <entry action="NewDir" count="154" />
+      <entry action="NewElement" count="2" />
+      <entry action="NewModuleInGroup" count="43" />
+      <entry action="NewProject" count="18" />
+      <entry action="NewScratchFile" count="1" />
+      <entry action="NextTemplateVariable" count="220" />
+      <entry action="OpenFile" count="63" />
+      <entry action="ParameterInfo" count="14" />
+      <entry action="Progress Resumed" count="5" />
+      <entry action="ReformatCode" count="1" />
+      <entry action="RenameElement" count="25" />
+      <entry action="Rerun" count="1" />
+      <entry action="Resume" count="10" />
+      <entry action="Run" count="1902" />
+      <entry action="SaveAll" count="2157" />
+      <entry action="ScreenMatch.MainAction" count="23" />
+      <entry action="SearchEverywhere" count="11" />
+      <entry action="ShowBookmarks" count="1" />
+      <entry action="ShowIntentionActions" count="1982" />
+      <entry action="ShowSettings" count="15" />
+      <entry action="StepInto" count="4" />
+      <entry action="StepOver" count="31" />
+      <entry action="Stop" count="2" />
+      <entry action="Switcher" count="1" />
+      <entry action="ToggleLineBreakpoint" count="214" />
+      <entry action="XDebugger.CopyValue" count="2" />
+      <entry action="template.create.ActivityEmpty Activity" count="27" />
+      <entry action="template.create.XMLLayout XML File" count="71" />
+      <entry action="template.create.XMLValues XML File" count="1" />
+    </counts>
+  </component>
+  <component name="FeatureUsageStatistics" first-run="1552825794054" have-been-shown="false" show-in-other="true" show-in-compilation="true">
+    <feature id="refactoring.moveTopLevel" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.rename" count="23" last-shown="0" last-used="1554901001059" shown-count="0" />
+    <feature id="refactoring.pushDown" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineMacro" count="0" last-shown="0" la

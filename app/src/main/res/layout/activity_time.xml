@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bw.movie.ui.TimeActivity">
+        <ImageView
+            android:contentDescription="TODO" android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/weidudianying"
+            />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_20"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="维度影院"
+                    app:layout_constraintBottom_toTopOf="@+id/yi"
+                    android:layout_marginBottom="@dimen/dp_24"
+                    />
+                <TextView
+                    android:id="@+id/yi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="一场不一样的视觉盛宴"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="@dimen/dp_98"
+                    />
+</android.support.constraint.ConstraintLayout>

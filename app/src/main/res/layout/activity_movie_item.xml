@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/dp_24"
+    android:layout_marginRight="@dimen/dp_24"
+    tools:context=".mvp.view.Movie_itemActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name_id"
+                    android:text="CJDADA"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="#666666"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name_zhi"
+                    android:text="CJcc1DADA"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="#666666"
+                    android:layout_below="@+id/name_id"
+                    android:layout_marginTop="@dimen/sp_10"
+                    />
+                <ImageView
+                    android:layout_width="@dimen/dp_24"
+                    android:layout_height="@dimen/dp_24"
+                    android:src="@mipmap/aad"
+                    android:layout_marginTop="@dimen/dp_40"
+                    android:layout_alignParentRight="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_140"
+                    android:src="@mipmap/aacc"
+                    android:scaleType="centerCrop"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:layout_marginLeft="@dimen/dp_6"
+                        android:id="@+id/img"
+                        android:layout_width="@dimen/dp_103"
+                        android:layout_height="@dimen/dp_130"
+                        android:layout_marginTop="@dimen/dp_5"
+                        />
+                    <TextView
+                        android:textSize="@dimen/sp_12"
+                        android:id="@+id/pop_detail_typetext"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:text="类型:动作/科幻/冒险"
+                        android:textColor="#ffffff"
+                        android:layout_toEndOf="@id/img"
+                        android:layout_toRightOf="@id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="@dimen/sp_12"
+                        android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                        android:id="@+id/pop_detail_director"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:textColor="#ffffff"
+                        android:text="导演:沙恩 布莱克"
+                        android:layout_below="@id/pop_detail_typetext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="@dimen/sp_12"
+                        android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                        android:layout_below="@id/pop_detail_director"
+                        android:id="@+id/pop_detail_minute"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:textColor="#ffffff"
+                        android:text="时长:106分钟"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="@dimen/sp_12"
+                        android:layout_below="@id/pop_detail_minute"
+                        android:id="@+id/pop_detail_place"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:textColor="#ffffff"
+                        android:text="产地:美国"
+                        android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rec_ok"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+           <!-- <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/button_xiang22"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="@dimen/dp_60"
+                    android:layout_height="@dimen/dp_60"
+                    android:contentDescription="TODO"
+                    android:textColor="#ffffff"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@mipmap/ron"
+                    />
+            </RelativeLayout>-->
+        </LinearLayout>
+
+</LinearLayout>

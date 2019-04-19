@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/button5"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ >
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent"
+           >
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+                <LinearLayout
+                    android:alpha="0.0"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_50">
+                </LinearLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   >
+               <com.facebook.drawee.view.SimpleDraweeView
+                   android:layout_marginEnd="@dimen/dp_20" android:layout_marginLeft="@dimen/dp_24"
+                   android:id="@+id/img"
+                   android:layout_width="@dimen/dp_111"
+                   android:layout_height="@dimen/dp_149"
+                   android:layout_marginRight="@dimen/dp_20"
+                   android:layout_marginStart="@dimen/dp_24" app:placeholderImage="@drawable/ic_launcher_background"
+                   />
+               <TextView
+                   android:textSize="@dimen/sp_12"
+                   android:id="@+id/pop_detail_typetext"
+                   android:layout_marginTop="@dimen/dp_30"
+                   android:text="类型:动作/科幻/冒险"
+                   android:textColor="#333333"
+                   android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <TextView
+                   android:textSize="@dimen/sp_12"
+                   android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                   android:id="@+id/pop_detail_director"
+                   android:layout_marginTop="@dimen/dp_10"
+                   android:textColor="#333333"
+                   android:text="导演:沙恩 布莱克"
+                   android:layout_below="@id/pop_detail_typetext"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <TextView
+                   android:textSize="@dimen/sp_12"
+                   android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                   android:layout_below="@id/pop_detail_director"
+                   android:id="@+id/pop_detail_minute"
+                   android:layout_marginTop="@dimen/dp_10"
+                   android:textColor="#333333"
+                   android:text="时长:106分钟"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <TextView
+                   android:textSize="@dimen/sp_12"
+                   android:layout_below="@id/pop_detail_minute"
+                   android:id="@+id/pop_detail_place"
+                   android:layout_marginTop="@dimen/dp_10"
+                   android:textColor="#333333"
+                   android:text="产地:美国"
+                   android:layout_toEndOf="@id/img" android:layout_toRightOf="@id/img"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <ImageView
+                   android:id="@+id/pop_detail_finish"
+                   android:layout_width="22dp"
+                   android:layout_height="24dp"
+                   android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+                   android:layout_marginTop="@dimen/dp_30"
+                   android:contentDescription="TODO" android:src="@mipmap/com_icon_down_default_xxhdpi" />
+           </RelativeLayout>
+           </RelativeLayout>
+
+           <View
+               android:layout_marginLeft="@dimen/dp_24"
+               android:layout_marginBottom="@dimen/dp_5"
+               android:layout_below="@id/film_fenlei"
+               android:layout_marginStart="@dimen/dp_24" android:background="#750F41"
+               android:layout_width="@dimen/dp_30"
+               android:layout_height="@dimen/dp_3"/>
+           <TextView
+               android:id="@+id/title"
+               android:layout_marginLeft="@dimen/dp_24"
+               android:layout_width="match_parent"
+               android:layout_marginStart="@dimen/dp_24" android:textSize="@dimen/dp_14"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:textSize="@dimen/sp_16"
+               android:text="演职人员"
+               android:layout_marginLeft="@dimen/dp_24"
+               android:layout_marginStart="@dimen/dp_24" android:layout_marginTop="@dimen/dp_10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <View
+               android:layout_marginLeft="@dimen/dp_24"
+               android:layout_marginBottom="@dimen/dp_5"
+               android:layout_below="@id/film_fenlei"
+               android:layout_marginStart="@dimen/dp_24" android:background="#750F41"
+               android:layout_width="50dp"
+               android:layout_height="3dp"/>
+           <RelativeLayout
+               android:layout_marginRight="40dp"
+               android:layout_marginStart="20dp" android:layout_marginTop="10dp"
+               android:layout_marginEnd="40dp" android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <Button
+                   android:id="@+id/pop_leftbutton"
+                   android:background="@drawable/buttonqian"
+                   android:text="演员名字"
+                   android:textColor="#ffffff"
+                   android:layout_width="@dimen/dp_75"
+                   android:layout_height="@dimen/dp_32" />
+               <Button
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentEnd="true" android:background="@drawable/buttonqian"
+                   android:text="饰演角色"
+                   android:textColor="#ffffff"
+                   android:layout_width="@dimen/dp_75"
+                   android:layout_height="@dimen/dp_32" />
+               <android.support.v7.widget.RecyclerView
+                   android:id="@+id/revs"
+                   android:layout_below="@id/pop_leftbutton"
+                   android:layout_width="@dimen/dp_312"
+                   android:layout_marginTop="@dimen/dp_12"
+                   android:layout_height="wrap_content">
+               </android.support.v7.widget.RecyclerView>
+           </RelativeLayout>
+
+           <TextView
+               android:id="@+id/film_fenlei"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/dp_24"
+               android:layout_marginStart="@dimen/dp_24" android:layout_marginTop="@dimen/dp_10"
+               android:text="剧情简介"
+               android:textSize="@dimen/sp_16" />
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginStart="@dimen/dp_24" android:contentDescription="TODO" android:src="@mipmap/dw"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:id="@+id/i"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:id="@+id/a"
+            android:textColor="#333333"
+            android:layout_marginStart="@dimen/dp_6" android:layout_marginTop="@dimen/dp_5"
+            app:layout_constraintLeft_toRightOf="@+id/i"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+    </android.support.constraint.ConstraintLayout>
+            <RadioGroup
+                android:id="@+id/Group12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <RadioButton
+                    android:id="@+id/but12"
+                    android:layout_width="@dimen/dp_83"
+                    android:layout_height="@dimen/dp_25"
+                    android:text="推荐影院"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginStart="@dimen/dp_80" android:alpha="0.8"
+                    android:layout_marginLeft="@dimen/dp_80"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:background="@drawable/button4"
+                    />
+                <RadioButton
+                    android:id="@+id/but121"
+                    android:layout_width="@dimen/dp_83"
+                    android:layout_height="@dimen/dp_25"
+                    android:text="附近影院"
+                    android:layout_marginLeft="@dimen/dp_32"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginStart="@dimen/dp_32" android:alpha="0.8"
+                    android:background="@drawable/button4"
+                    />
+            </RadioGroup>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/Pager12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

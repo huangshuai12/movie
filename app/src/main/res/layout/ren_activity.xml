@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_146"
+    android:layout_height="@dimen/dp_164"
+    android:paddingEnd="@dimen/dp_20" android:paddingRight="@dimen/dp_20"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="@dimen/dp_126"
+        android:layout_height="@dimen/dp_164"
+
+        >
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="@dimen/dp_126"
+            android:layout_height="@dimen/dp_164"
+            android:id="@+id/image_fe"
+            app:roundedCornerRadius="@dimen/dp_8"
+            />
+        <RelativeLayout
+            android:layout_width="@dimen/dp_126"
+            android:layout_height="@dimen/dp_40"
+            android:background="#400a33"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.9"
+            >
+            <View
+                android:layout_width="@dimen/dp_3"
+                android:layout_height="@dimen/dp_18"
+                android:layout_marginStart="@dimen/dp_10" android:background="#FF1493"
+                android:layout_marginTop="@dimen/dp_11"
+                android:layout_marginLeft="@dimen/dp_10"
+                />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_36"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:maxLength="4"
+                android:text="手机无创"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:textSize="@dimen/sp_14" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
